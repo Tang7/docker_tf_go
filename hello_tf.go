@@ -1,3 +1,5 @@
+// Reference to intall instruction https://www.tensorflow.org/install/lang_go
+
 package main
 
 import (
