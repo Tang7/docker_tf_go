@@ -4,7 +4,7 @@
 
 * ### Verify the image and use it:
 
-1. Create a Dockerfile in the same path of test_tf.go:
+1. Create another Dockerfile in the same path of test_tf.go:
 ```
 FROM hopipola/tf_go
 
@@ -14,7 +14,7 @@ COPY . .
 
 RUN go build
 
-ENTRYPOINT [ "/go/src/hello_tf/hello_tf" 
+ENTRYPOINT ["/go/src/hello_tf/hello_tf"] 
 ```
 2. Build a local docker image
 ```
